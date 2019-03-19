@@ -69,14 +69,9 @@
             this.statusLbSat = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusLbSatInt = new System.Windows.Forms.ToolStripStatusLabel();
             this.statuslbSaveDir = new System.Windows.Forms.ToolStripStatusLabel();
-            this.pnlOption = new System.Windows.Forms.Panel();
-            this.tbcMain = new System.Windows.Forms.TabControl();
-            this.tpgImage = new System.Windows.Forms.TabPage();
-            this.tpgCurve = new System.Windows.Forms.TabPage();
             this.menu.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
-            this.tbcMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // menu
@@ -105,7 +100,7 @@
             this.savedirMenuItem});
             this.fileMenuItem.Name = "fileMenuItem";
             this.fileMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.fileMenuItem.Size = new System.Drawing.Size(58, 29);
+            this.fileMenuItem.Size = new System.Drawing.Size(69, 29);
             this.fileMenuItem.Text = "文件(&F)";
             this.fileMenuItem.ToolTipText = "读取/保存文件";
             // 
@@ -114,7 +109,7 @@
             this.openMenuItem.AutoToolTip = true;
             this.openMenuItem.Name = "openMenuItem";
             this.openMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.openMenuItem.Size = new System.Drawing.Size(193, 24);
             this.openMenuItem.Text = "打开";
             this.openMenuItem.ToolTipText = "打开文件";
             // 
@@ -123,7 +118,7 @@
             this.saveMenuItem.AutoToolTip = true;
             this.saveMenuItem.Name = "saveMenuItem";
             this.saveMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.saveMenuItem.Size = new System.Drawing.Size(193, 24);
             this.saveMenuItem.Text = "保存";
             this.saveMenuItem.ToolTipText = "保存文件";
             // 
@@ -132,7 +127,7 @@
             this.savedirMenuItem.AutoToolTip = true;
             this.savedirMenuItem.Name = "savedirMenuItem";
             this.savedirMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.savedirMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.savedirMenuItem.Size = new System.Drawing.Size(193, 24);
             this.savedirMenuItem.Text = "存储路径";
             this.savedirMenuItem.ToolTipText = "设置存储路径";
             // 
@@ -145,7 +140,7 @@
             this.parasMenuItem,
             this.PIEditMenuItem});
             this.configMenuItem.Name = "configMenuItem";
-            this.configMenuItem.Size = new System.Drawing.Size(60, 29);
+            this.configMenuItem.Size = new System.Drawing.Size(71, 29);
             this.configMenuItem.Text = "设置(&C)";
             this.configMenuItem.ToolTipText = "设置";
             // 
@@ -155,7 +150,7 @@
             this.deviceMenuItem.Name = "deviceMenuItem";
             this.deviceMenuItem.ShortcutKeyDisplayString = "";
             this.deviceMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.deviceMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.deviceMenuItem.Size = new System.Drawing.Size(211, 24);
             this.deviceMenuItem.Text = "设备";
             this.deviceMenuItem.ToolTipText = "设置端口";
             // 
@@ -164,7 +159,7 @@
             this.cameraMenuItem.AutoToolTip = true;
             this.cameraMenuItem.Name = "cameraMenuItem";
             this.cameraMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.cameraMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.cameraMenuItem.Size = new System.Drawing.Size(211, 24);
             this.cameraMenuItem.Text = "相机";
             this.cameraMenuItem.ToolTipText = "设置相机";
             // 
@@ -173,7 +168,7 @@
             this.parasMenuItem.AutoToolTip = true;
             this.parasMenuItem.Name = "parasMenuItem";
             this.parasMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.parasMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.parasMenuItem.Size = new System.Drawing.Size(211, 24);
             this.parasMenuItem.Text = "测量参数";
             this.parasMenuItem.ToolTipText = "设置测量参数";
             // 
@@ -182,7 +177,7 @@
             this.PIEditMenuItem.AutoToolTip = true;
             this.PIEditMenuItem.Name = "PIEditMenuItem";
             this.PIEditMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.PIEditMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.PIEditMenuItem.Size = new System.Drawing.Size(211, 24);
             this.PIEditMenuItem.Text = "快速光曲线";
             this.PIEditMenuItem.ToolTipText = "设置快速光曲线";
             // 
@@ -194,7 +189,7 @@
             this.interfaceMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
             this.helpToolStripMenuItem.Text = "帮助(&H)";
             this.helpToolStripMenuItem.ToolTipText = "帮助文件";
             // 
@@ -202,7 +197,7 @@
             // 
             this.uesrMenuItem.Name = "uesrMenuItem";
             this.uesrMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.uesrMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.uesrMenuItem.Size = new System.Drawing.Size(195, 24);
             this.uesrMenuItem.Text = "操作手册";
             this.uesrMenuItem.ToolTipText = "植物荧光成像系统操作手册";
             // 
@@ -210,7 +205,7 @@
             // 
             this.interfaceMenuItem.Name = "interfaceMenuItem";
             this.interfaceMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.interfaceMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.interfaceMenuItem.Size = new System.Drawing.Size(195, 24);
             this.interfaceMenuItem.Text = "接口说明";
             this.interfaceMenuItem.ToolTipText = "系统硬件接口及接线说明";
             // 
@@ -219,7 +214,7 @@
             this.aboutMenuItem.AutoToolTip = true;
             this.aboutMenuItem.Name = "aboutMenuItem";
             this.aboutMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.aboutMenuItem.Size = new System.Drawing.Size(60, 29);
+            this.aboutMenuItem.Size = new System.Drawing.Size(72, 29);
             this.aboutMenuItem.Text = "关于(&A)";
             this.aboutMenuItem.ToolTipText = "公司及软件版本信息";
             // 
@@ -242,13 +237,13 @@
             this.measureToolStripBtn});
             this.toolStrip.Location = new System.Drawing.Point(0, 35);
             this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(994, 25);
+            this.toolStrip.Size = new System.Drawing.Size(994, 27);
             this.toolStrip.TabIndex = 11;
             // 
             // deviceToolStripLb
             // 
             this.deviceToolStripLb.Name = "deviceToolStripLb";
-            this.deviceToolStripLb.Size = new System.Drawing.Size(28, 22);
+            this.deviceToolStripLb.Size = new System.Drawing.Size(35, 24);
             this.deviceToolStripLb.Text = "设备";
             // 
             // portNameToolStripCbx
@@ -267,7 +262,7 @@
             this.portNameToolStripCbx.MaxDropDownItems = 6;
             this.portNameToolStripCbx.MaxLength = 60;
             this.portNameToolStripCbx.Name = "portNameToolStripCbx";
-            this.portNameToolStripCbx.Size = new System.Drawing.Size(60, 24);
+            this.portNameToolStripCbx.Size = new System.Drawing.Size(60, 25);
             this.portNameToolStripCbx.ToolTipText = "端口号";
             // 
             // connectToolStripBtn
@@ -276,18 +271,18 @@
             this.connectToolStripBtn.Image = ((System.Drawing.Image)(resources.GetObject("connectToolStripBtn.Image")));
             this.connectToolStripBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.connectToolStripBtn.Name = "connectToolStripBtn";
-            this.connectToolStripBtn.Size = new System.Drawing.Size(23, 22);
+            this.connectToolStripBtn.Size = new System.Drawing.Size(23, 24);
             this.connectToolStripBtn.Text = "连接或断开设备";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // cameraToolStripLb
             // 
             this.cameraToolStripLb.Name = "cameraToolStripLb";
-            this.cameraToolStripLb.Size = new System.Drawing.Size(28, 22);
+            this.cameraToolStripLb.Size = new System.Drawing.Size(35, 24);
             this.cameraToolStripLb.Text = "相机";
             // 
             // cameraToolStripTbx
@@ -295,13 +290,13 @@
             this.cameraToolStripTbx.BackColor = System.Drawing.SystemColors.Window;
             this.cameraToolStripTbx.Name = "cameraToolStripTbx";
             this.cameraToolStripTbx.ReadOnly = true;
-            this.cameraToolStripTbx.Size = new System.Drawing.Size(100, 25);
+            this.cameraToolStripTbx.Size = new System.Drawing.Size(100, 27);
             this.cameraToolStripTbx.ToolTipText = "相机";
             // 
             // gainToolStripLb
             // 
             this.gainToolStripLb.Name = "gainToolStripLb";
-            this.gainToolStripLb.Size = new System.Drawing.Size(28, 22);
+            this.gainToolStripLb.Size = new System.Drawing.Size(35, 24);
             this.gainToolStripLb.Text = "增益";
             this.gainToolStripLb.ToolTipText = "相机增益";
             // 
@@ -310,19 +305,19 @@
             this.propToolStripBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.propToolStripBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.propToolStripBtn.Name = "propToolStripBtn";
-            this.propToolStripBtn.Size = new System.Drawing.Size(32, 22);
+            this.propToolStripBtn.Size = new System.Drawing.Size(39, 24);
             this.propToolStripBtn.Text = "属性";
             this.propToolStripBtn.ToolTipText = "相机属性";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // modeToolStripLb
             // 
             this.modeToolStripLb.Name = "modeToolStripLb";
-            this.modeToolStripLb.Size = new System.Drawing.Size(48, 22);
+            this.modeToolStripLb.Size = new System.Drawing.Size(61, 24);
             this.modeToolStripLb.Text = "测量模式";
             // 
             // modeToolStripCbx
@@ -343,7 +338,7 @@
             this.modeToolStripCbx.MaxDropDownItems = 6;
             this.modeToolStripCbx.MaxLength = 80;
             this.modeToolStripCbx.Name = "modeToolStripCbx";
-            this.modeToolStripCbx.Size = new System.Drawing.Size(80, 24);
+            this.modeToolStripCbx.Size = new System.Drawing.Size(80, 25);
             this.modeToolStripCbx.ToolTipText = "选择测量模式";
             // 
             // measureToolStripBtn
@@ -352,7 +347,7 @@
             this.measureToolStripBtn.Image = ((System.Drawing.Image)(resources.GetObject("measureToolStripBtn.Image")));
             this.measureToolStripBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.measureToolStripBtn.Name = "measureToolStripBtn";
-            this.measureToolStripBtn.Size = new System.Drawing.Size(23, 22);
+            this.measureToolStripBtn.Size = new System.Drawing.Size(23, 24);
             this.measureToolStripBtn.Text = "连接设备";
             // 
             // statusStrip
@@ -371,7 +366,7 @@
             this.statusLbSat,
             this.statusLbSatInt,
             this.statuslbSaveDir});
-            this.statusStrip.Location = new System.Drawing.Point(0, 747);
+            this.statusStrip.Location = new System.Drawing.Point(0, 742);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Size = new System.Drawing.Size(994, 25);
             this.statusStrip.TabIndex = 12;
@@ -381,7 +376,7 @@
             // 
             this.statusLbIns.BackColor = System.Drawing.Color.Transparent;
             this.statusLbIns.Name = "statusLbIns";
-            this.statusLbIns.Size = new System.Drawing.Size(30, 20);
+            this.statusLbIns.Size = new System.Drawing.Size(38, 20);
             this.statusLbIns.Text = "设备:";
             // 
             // statusIns
@@ -395,7 +390,7 @@
             this.statusLbCamera.BackColor = System.Drawing.Color.Transparent;
             this.statusLbCamera.Margin = new System.Windows.Forms.Padding(5, 3, 0, 2);
             this.statusLbCamera.Name = "statusLbCamera";
-            this.statusLbCamera.Size = new System.Drawing.Size(30, 20);
+            this.statusLbCamera.Size = new System.Drawing.Size(38, 20);
             this.statusLbCamera.Text = "相机:";
             // 
             // statusCameraFound
@@ -417,42 +412,42 @@
             this.statusLbMeas.Margin = new System.Windows.Forms.Padding(5, 3, 0, 2);
             this.statusLbMeas.Name = "statusLbMeas";
             this.statusLbMeas.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.statusLbMeas.Size = new System.Drawing.Size(40, 20);
+            this.statusLbMeas.Size = new System.Drawing.Size(51, 20);
             this.statusLbMeas.Text = "测量光:";
             // 
             // statusLbMeasInt
             // 
             this.statusLbMeasInt.BackColor = System.Drawing.Color.Transparent;
             this.statusLbMeasInt.Name = "statusLbMeasInt";
-            this.statusLbMeasInt.Size = new System.Drawing.Size(27, 20);
+            this.statusLbMeasInt.Size = new System.Drawing.Size(35, 20);
             this.statusLbMeasInt.Text = "  /   ";
             // 
             // statusLbAct
             // 
             this.statusLbAct.BackColor = System.Drawing.Color.Transparent;
             this.statusLbAct.Name = "statusLbAct";
-            this.statusLbAct.Size = new System.Drawing.Size(40, 20);
+            this.statusLbAct.Size = new System.Drawing.Size(51, 20);
             this.statusLbAct.Text = "光化光:";
             // 
             // statusLbActInt
             // 
             this.statusLbActInt.BackColor = System.Drawing.Color.Transparent;
             this.statusLbActInt.Name = "statusLbActInt";
-            this.statusLbActInt.Size = new System.Drawing.Size(27, 20);
+            this.statusLbActInt.Size = new System.Drawing.Size(35, 20);
             this.statusLbActInt.Text = "  /   ";
             // 
             // statusLbSat
             // 
             this.statusLbSat.BackColor = System.Drawing.Color.Transparent;
             this.statusLbSat.Name = "statusLbSat";
-            this.statusLbSat.Size = new System.Drawing.Size(40, 20);
+            this.statusLbSat.Size = new System.Drawing.Size(51, 20);
             this.statusLbSat.Text = "饱和光:";
             // 
             // statusLbSatInt
             // 
             this.statusLbSatInt.BackColor = System.Drawing.Color.Transparent;
             this.statusLbSatInt.Name = "statusLbSatInt";
-            this.statusLbSatInt.Size = new System.Drawing.Size(27, 20);
+            this.statusLbSatInt.Size = new System.Drawing.Size(35, 20);
             this.statusLbSatInt.Text = "  /   ";
             // 
             // statuslbSaveDir
@@ -463,58 +458,17 @@
             this.statuslbSaveDir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.statuslbSaveDir.Margin = new System.Windows.Forms.Padding(5, 3, 0, 2);
             this.statuslbSaveDir.Name = "statuslbSaveDir";
-            this.statuslbSaveDir.Size = new System.Drawing.Size(767, 20);
+            this.statuslbSaveDir.Size = new System.Drawing.Size(687, 20);
             this.statuslbSaveDir.Spring = true;
             this.statuslbSaveDir.Text = " 存储路径";
             this.statuslbSaveDir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.statuslbSaveDir.ToolTipText = "存储目录";
             // 
-            // pnlOption
-            // 
-            this.pnlOption.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlOption.Location = new System.Drawing.Point(0, 677);
-            this.pnlOption.Name = "pnlOption";
-            this.pnlOption.Size = new System.Drawing.Size(994, 70);
-            this.pnlOption.TabIndex = 13;
-            // 
-            // tbcMain
-            // 
-            this.tbcMain.Controls.Add(this.tpgImage);
-            this.tbcMain.Controls.Add(this.tpgCurve);
-            this.tbcMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbcMain.Location = new System.Drawing.Point(0, 60);
-            this.tbcMain.Name = "tbcMain";
-            this.tbcMain.SelectedIndex = 0;
-            this.tbcMain.Size = new System.Drawing.Size(994, 617);
-            this.tbcMain.TabIndex = 14;
-            // 
-            // tpgImage
-            // 
-            this.tpgImage.Location = new System.Drawing.Point(4, 26);
-            this.tpgImage.Name = "tpgImage";
-            this.tpgImage.Padding = new System.Windows.Forms.Padding(3);
-            this.tpgImage.Size = new System.Drawing.Size(986, 587);
-            this.tpgImage.TabIndex = 0;
-            this.tpgImage.Text = "图像";
-            this.tpgImage.UseVisualStyleBackColor = true;
-            // 
-            // tpgCurve
-            // 
-            this.tpgCurve.Location = new System.Drawing.Point(4, 26);
-            this.tpgCurve.Name = "tpgCurve";
-            this.tpgCurve.Padding = new System.Windows.Forms.Padding(3);
-            this.tpgCurve.Size = new System.Drawing.Size(1066, 747);
-            this.tpgCurve.TabIndex = 1;
-            this.tpgCurve.Text = "曲线";
-            this.tpgCurve.UseVisualStyleBackColor = true;
-            // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(994, 772);
-            this.Controls.Add(this.tbcMain);
-            this.Controls.Add(this.pnlOption);
+            this.ClientSize = new System.Drawing.Size(994, 767);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.menu);
@@ -522,15 +476,17 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "FormMain";
-            this.Text = "炬像植物叶绿素荧光成像分析软件";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "炬像植物叶绿素荧光成像分析软件 ";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.toolStrip.ResumeLayout(false);
             this.toolStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
-            this.tbcMain.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -578,10 +534,6 @@
         private System.Windows.Forms.ToolStripStatusLabel statusLbSat;
         private System.Windows.Forms.ToolStripStatusLabel statusLbSatInt;
         private System.Windows.Forms.ToolStripStatusLabel statuslbSaveDir;
-        private System.Windows.Forms.Panel pnlOption;
-        private System.Windows.Forms.TabControl tbcMain;
-        private System.Windows.Forms.TabPage tpgImage;
-        private System.Windows.Forms.TabPage tpgCurve;
     }
 }
 

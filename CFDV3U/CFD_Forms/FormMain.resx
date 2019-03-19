@@ -121,13 +121,13 @@
     <value>17, 17</value>
   </metadata>
   <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>225, 16</value>
+    <value>103, 18</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="connectToolStripBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVISURBVEhLfVXrT5NnFO9/sSVTkYLcFUQU0anR3TDbstuH
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAVISURBVEhLfVXrT5NnFO9/sSVTkYLcFUQU0anR3TDbstuH
         LdkXsw+6eamlN9qiBRURQzTLlhjHRQybYwPHpVRKW2hpS3Fkoh+W4RanSyY6YMoEhtD2fd/fznnetmYf
         pMnT932fy++c8zu/5xwNFCAeA/ip0AD4YxlxWYLE0zzHQ+YNcXqNQqZBE7SmiD1xHrQcS2EwjgwNH5Rk
         YPz2ffx0+wGmFySCVg8s0Yko4yQNEDivSIoKzr+kXfEhMBUoMu1TJGgU8vTRooSTLT7sP9uLsx3j6B77
@@ -156,7 +156,7 @@
   <data name="measureToolStripBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVISURBVEhLfVXrT5NnFO9/sSVTkYLcFUQU0anR3TDbstuH
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAVISURBVEhLfVXrT5NnFO9/sSVTkYLcFUQU0anR3TDbstuH
         LdkXsw+6eamlN9qiBRURQzTLlhjHRQybYwPHpVRKW2hpS3Fkoh+W4RanSyY6YMoEhtD2fd/fznnetmYf
         pMnT932fy++c8zu/5xwNFCAeA/ip0AD4YxlxWYLE0zzHQ+YNcXqNQqZBE7SmiD1xHrQcS2EwjgwNH5Rk
         YPz2ffx0+wGmFySCVg8s0Yko4yQNEDivSIoKzr+kXfEhMBUoMu1TJGgU8vTRooSTLT7sP9uLsx3j6B77
@@ -183,7 +183,7 @@
 </value>
   </data>
   <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>328, 16</value>
+    <value>210, 21</value>
   </metadata>
   <data name="statusCameraFound.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

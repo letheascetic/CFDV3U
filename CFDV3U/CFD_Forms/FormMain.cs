@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Reflection;
 
 namespace CFD_Forms
 {
@@ -14,6 +15,14 @@ namespace CFD_Forms
         public FormMain()
         {
             InitializeComponent();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            this.Text += version;
+
+            //icImagingControl.LiveStart();
         }
     }
 }
